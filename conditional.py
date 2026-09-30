@@ -1,15 +1,31 @@
-a = int(input("Enter your first number= "))
-b = int(input("Enter your sceond number= "))
-c = int(input("Enter your third number= "))
+marks = int(input("Enter your first number= "))
 
-if a>b and a>c:
-    print("Largest number= ", a)
+if marks>=80 and marks<=100:
+    print("A+")
 
-elif b>c and b>a:
-     print("Largest number= ", b)
+elif marks>=70 and marks<=79:
+    print("A")
     
-elif c>a and c>b:
-     print("Largest number= ", c)
+elif marks>=60 and marks<=69:
+    print("B")
+
+elif marks>=50 and marks<=59:
+    print("C")
+
+elif marks>=40 and marks<=49:
+    print("D")
+    
+elif marks<40 and marks>=0:
+    print("F")
+
+else:
+    print("Invalid mark")
+
+
+
+
+
+
     
     
     
