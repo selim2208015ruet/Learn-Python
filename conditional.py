@@ -1,4 +1,8 @@
-age = 20
+age = int(input("Enter your age: "))
 
-if age >=20:
-    print("you are adult")
+if age <13:
+    print("child")
+elif age >=13 & age <=17:
+    print("Teenager")
+elif age >=18:
+    print("Adult")
