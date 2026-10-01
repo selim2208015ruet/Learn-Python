@@ -1,8 +1,8 @@
-num = int(input("Enter number: "))
+username = input("Enter username: ")
+password = input("Enter password: ")
 
-if num>0 and num%2==0:
-    print("Positive Even")
+if username == "Selim" and password == "2208015":
+    print("Login succesful")
 
 else:
-    print("Invalid")
-    
+    print("Invalid username and password")
