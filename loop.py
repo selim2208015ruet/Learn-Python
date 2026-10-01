@@ -1,10 +1,7 @@
-sum=0
+num = int(input("Enter number: "))
 
-for i in range(1,101):
-    sum+=i
+while num != 0:
+    print("You entered:", num)
+    num = int(input("Enter number: "))
 
-print("sum=",sum)
-    
-
-        
-    
+print("Program finished")
