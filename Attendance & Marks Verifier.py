@@ -6,5 +6,4 @@ if attendance >=80 and marks >=40:
 
 else:
     print("You are not Eligible")
-    fhfhmgjmyjmyck,jkyv,y
-    lukuluouo
+    
