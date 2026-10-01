@@ -5,3 +5,5 @@ if num>0 and num%2==0:
 
 else:
     print("Invalid")
+    ruyfrfuiru
+    
