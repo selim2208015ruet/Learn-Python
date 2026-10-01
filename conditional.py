@@ -1,8 +1,13 @@
-age = int(input("Enter your age: "))
-marks = int(input("Enter your marks: "))
+num = int(input("Enter your Number: "))
 
-if age>=18 and marks>=60:
-    print("admission Eligible")
+if num>0 and num%2==0:
+    print("Positive Even")
 
-else:
-    print("Your are not eligible") 
+elif num>0 and num%2!=0:
+    print("Positive Odd")
+
+elif num<0:
+    print("Negative")
+
+elif num==0:
+    print("Zero")
