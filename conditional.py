@@ -1,8 +1,8 @@
-username = input("Enter username: ")
-password = input("Enter password: ")
+age = int(input("Enter your age: "))
+marks = int(input("Enter your marks: "))
 
-if username == "Selim" and password == "2208015":
-    print("Login succesful")
+if age>=18 and marks>=60:
+    print("admission Eligible")
 
 else:
-    print("Invalid username and password")
+    print("Your are not eligible") 
