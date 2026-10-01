@@ -1,5 +1,7 @@
-list = [10, 20, 30, 40, 50]
-print(list)
-print(list[0])
-print(list[4])
-print(len(list))
+numbers = []
+
+for i in range(5):
+    num = int(input("Enter your number"))
+    numbers.append(num)
+
+print("Numbers= ",numbers)
