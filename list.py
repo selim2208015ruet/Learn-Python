@@ -1,4 +1,5 @@
-marks = [75, 82, 68, 90, 55]
-marks.append(90)
-for mark in marks:
-    print(mark)
+list = [10, 20, 30, 40, 50]
+print(list)
+print(list[0])
+print(list[4])
+print(len(list))
