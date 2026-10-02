@@ -1,4 +1,8 @@
-numbers = {10, 20,20,40, 30, 40, 50}
-unique_number = set(numbers)
+i=0
+numbers = set()
+for i in range(5):
+    num=input("Enter number: ")
+    numbers.add(num)
 
-print(unique_number)
+print(numbers)
+   
