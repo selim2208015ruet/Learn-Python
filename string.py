@@ -1,5 +1,4 @@
-name = input("Enter name is: ")
-
-print(name.upper())
-print(name.lower())
-print(len(name))
+text = "python"
+print(text[0])
+print(text[-1])
+print(text[::-1])
