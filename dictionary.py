@@ -4,8 +4,5 @@ student = {
     "university": "RUET",
     "department": "MTE"
 }
-
-student["Semester"]=6
-student["age"]=23
-student.pop("university")
-print(student)
+for key,value in student.items():
+    print(key,":",value)
