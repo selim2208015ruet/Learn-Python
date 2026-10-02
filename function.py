@@ -1,5 +1,5 @@
-def add(a,b):
-    return a+b
+def squre(num):
+    return num*num
 
-result= add(10,20)
+result= squre(5)
 print(result)
