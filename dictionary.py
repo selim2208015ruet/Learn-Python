@@ -5,5 +5,7 @@ student = {
     "department": "MTE"
 }
 
-print(student["name"])
-print(student["age"])
+student["Semester"]=6
+student["age"]=23
+student.pop("university")
+print(student)
