@@ -1,8 +1,6 @@
-numbers = (10, 20, 30, 40)
+data = ("Selim", "22", "RUET", "MTE")
 
-print(numbers[0])
-print(numbers[-1])
-print(len(numbers))
-
-for mark in numbers:
-    print(mark)
+print("My name is:",data[0])
+print("My age is:",data[1])
+print("My university is:",data[2])
+print("My department is:",data[3])
