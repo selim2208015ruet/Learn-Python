@@ -1,7 +1,4 @@
-numbers = {10, 20, 30, 40, 50}
-numbers.add(60)
-numbers.remove(10)
-print(numbers)
+numbers = {10, 20,20,40, 30, 40, 50}
+unique_number = set(numbers)
 
-for num in numbers:
-    print(num)
+print(unique_number)
