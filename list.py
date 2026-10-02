@@ -1,7 +1,10 @@
-numbers = []
+i=0
+list = []
+while i<=4:
+    num = int(input("Enter your number= "))
+    list.append(num)
+    i+=1
 
-for i in range(5):
-    num = int(input("Enter your number"))
-    numbers.append(num)
 
-print("Numbers= ",numbers)
+print("Numbers= ",list)
+
