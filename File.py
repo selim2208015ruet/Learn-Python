@@ -1,4 +1,5 @@
-file = open("data.txt","w")
+with open ("data.txt","r") as file:
+    data=file.read()
 
-file.write("Hello Selim")
-file.close()
+print (data)
+
