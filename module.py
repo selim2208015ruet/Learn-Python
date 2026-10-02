@@ -1,3 +1,9 @@
 import random
 number = random.randint(1,10)
-print(number)
+num = int(input("Guss a number: "))
+
+if num==number:
+    print("Your are right")
+
+else:
+    print("Your are wrong")
