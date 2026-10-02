@@ -1,11 +1,11 @@
 student = {
     "name": "Selim",
     "age": 22,
-    "university": "RUET",
-    "department": "MTE"
+    "department": "MTE",
+    "cgpa": 3.68
 }
 print(student["name"])
-print(student["university"])
+print(student["cgpa"])
 student["semester"]=6
 
 for key,value in student.items():
