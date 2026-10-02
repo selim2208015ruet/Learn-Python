@@ -1,4 +1,2 @@
-text = "python"
-print(text[0])
-print(text[-1])
-print(text[::-1])
+text = "I am learning python"
+print(text.replace("python","AI"))
