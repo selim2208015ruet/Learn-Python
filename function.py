@@ -1,5 +1,8 @@
-def squre(num):
-    return num*num
+def number(a,b):
+    if a>b:
+        return a
+    elif b>a:
+        return b
 
-result= squre(5)
+result = number(100,20)
 print(result)
