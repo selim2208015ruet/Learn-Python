@@ -1,5 +1,7 @@
-dfhfhfjdfhjdfhdfhjdfhfd
+try: 
+    age = int(input("Enter your age: "))
+    print("Your age is: ", age)
 
-
-
-fhkdshfhdfh fdsfhdklfhhdfh hf h
+except:
+    print("Please enter a valid Number")
+    
