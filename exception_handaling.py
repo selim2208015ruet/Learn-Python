@@ -1,7 +1,6 @@
-try: 
-    age = int(input("Enter your age: "))
-    print("Your age is: ", age)
+try:
+    num = int(input("Enter a Number: "))
+    print("You entered: ",num)
 
-except:
-    print("Please enter a valid Number")
-    
+except ValueError:
+    print("Invaliid input! please enter a number")
