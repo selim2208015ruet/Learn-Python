@@ -1,6 +1,13 @@
 try:
-    num = int(input("Enter a Number: "))
-    print("You entered: ",num)
+    num1 = int(input("Enter your first number: "))
+    num2 = int(input("Enter your second number: "))
+
+    result = num1 / num2
+
+    print("Result:", result)
 
 except ValueError:
-    print("Invaliid input! please enter a number")
+    print("Invalid input! Please enter numbers.")
+
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
