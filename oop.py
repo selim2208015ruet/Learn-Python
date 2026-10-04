@@ -5,15 +5,23 @@ class Student:
         self.age = age
         self.department = department
         self.cgpa = cgpa
-        
 
-    def show_result(self):
-        print("My name is ", self.name)
-        print("I study",self.department)
-        print("My Cgpa is", self.cgpa)
-        
+    def calculate_cgpa(self):
+        if self.cgpa>=3.75:
+            return "A+"
+        elif self.cgpa>=3.50:
+            return "A"
+        elif self.cgpa>=3.00:
+            return "B"
+        elif self.cgpa>=2.50:
+            return "c"
+        else:
+            return "F"
+    
     
 
 student1 = Student("Selim", 22, "MTE", 3.68)
 
-student1.show_result()
+grade = student1.calculate_cgpa()
+
+print("Your grade is ", grade)
