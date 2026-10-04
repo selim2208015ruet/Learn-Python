@@ -8,3 +8,4 @@ class student:
         print("cgpa:",self.__cgpa)
 student1 = student ("Selim", 3.96)
 student1.info_show()
+print(student1.name)
