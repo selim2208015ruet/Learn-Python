@@ -1,10 +1,12 @@
 class Student:
 
-    def __init__(self, name, age):
+    def __init__(self, name, age, department):
         self.name = name
         self.age = age
+        self.department = department
 
-student1 = Student("Selim", 22)
+student1 = Student("Selim", 22, "MTE")
 
-print(student1.name)
-print(student1.age)
+print("Name: ",student1.name)
+print("Age: ",student1.age)
+print("Department: ",student1.department)
