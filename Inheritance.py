@@ -8,8 +8,16 @@ class person:
         print("Age:",self.age)
 
 class student(person):
-    pass
+    def __init__(self, name, age, department):
+        super().__init__(name, age)
+        self.department = department
+    
+    
+    def show_student(self):
+        self.show_info()
+        print("Department:", self.department)
+    
 
-student1 = student("Selim", 22)
+student1 = student("Selim", 22, "MTE")
 
-student1.show_info()
+student1.show_student()
