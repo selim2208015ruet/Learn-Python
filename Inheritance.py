@@ -1,23 +1,21 @@
 class person:
-    def __init__(self, name, age):
+    def __init__(self, name, dept):
         self.name= name
-        self.age= age
+        self.dept= dept
         
     def show_info(self):
         print("Name:",self.name)
-        print("Age:",self.age)
+        print("Dept:",self.dept)
 
 class student(person):
-    def __init__(self, name, age, department):
-        super().__init__(name, age)
-        self.department = department
-    
-    
-    def show_student(self):
-        self.show_info()
-        print("Department:", self.department)
-    
+    def study(self):
+        print(self.name,"is studying")
+   
+student1 = student("Selim", "MTE")
+student2 = student("Rahim", "CSE")
+student3 = student("Karim", "EEE")
 
-student1 = student("Selim", 22, "MTE")
-
-student1.show_student()
+student1.study()
+student2.study()
+student3.study()
+student1.show_info()
