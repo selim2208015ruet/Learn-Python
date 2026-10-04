@@ -7,9 +7,13 @@ class student:
         return self.__cgpa
     
     def set_gpa(self, cgpa):
-        self.__cgpa = cgpa
+        if cgpa<=4 and cgpa>=0:
+            self.__cgpa = cgpa
+        else:
+            print("Invalid CGPA")
+        
         
 student1 = student ("Selim", 3.96)
 print("Old GPA:",student1.get_gpa())
-student1.set_gpa(3.85)
-print("New passsword:",student1.get_gpa())
+student1.set_gpa(-1)
+print("New CGPA:",student1.get_gpa())
