@@ -1,14 +1,12 @@
-class Dog:
-    def sound(self):
-        print("Dog says: woof")
+class Car:
+    def move(self):
+        print("Car is moving")
     
-class Cat:
-    def sound(self):
-        print("cat says: meow")
+class Boat:
+    def move(self):
+        print ("Boat is moving")
     
-
-dog = Dog()
-dog.sound()
-
-cat = Cat()
-cat.sound()  
+car = Car()
+car.move()
+boat = Boat()
+boat.move()
