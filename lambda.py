@@ -1,3 +1,5 @@
-add = lambda x,y : x if x>y else y
+numbers = [1, 2, 3, 4, 5]
 
-print(add(10,20))
+squre = list(map(lambda x: x*x,numbers))
+
+print(squre)
