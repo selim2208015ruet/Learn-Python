@@ -7,6 +7,9 @@ class Boat:
         print ("Boat is moving")
     
 car = Car()
-car.move()
 boat = Boat()
-boat.move()
+
+animals = [boat, car]
+
+for animal in animals:
+    animal.move()
