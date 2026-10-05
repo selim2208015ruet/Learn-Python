@@ -1,8 +1,6 @@
-def total(*args):
-    result =0
-    for num in args:
-        result = result + num
-        
-    print(result)
+def student_info(**kwargs):
+    for key,value in kwargs.items():
+        print(key,":",value)
     
-total(10, 20, 30, 40)
+
+student_info(name="Selim maih", age=22, department="MTE")
