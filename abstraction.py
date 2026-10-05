@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
 
-class Animal(ABC):
+class Vehicle(ABC):
     @abstractmethod
-    def sound(self):
+    def start(self):
         pass
 
-class Dog(Animal):
-    def sound(self):
-        print("dog saya: woof")
+class Car(Vehicle):
+    def start(self):
+        print("Car engine started")
     
 
-dog =Dog()
-dog.sound()
+car= Car()
+car.start()      
