@@ -1,6 +1,5 @@
-def student_info(**kwargs):
-    for key,value in kwargs.items():
-        print(key,":",value)
+def test(*args, **kwargs):
+    print(args)
+    print(kwargs)
     
-
-student_info(name="Selim maih", age=22, department="MTE")
+test(10, 20, name="Selim", age=22)
