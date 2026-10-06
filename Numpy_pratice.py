@@ -1,11 +1,9 @@
 import numpy as np
 
-a = np.zeros(5)
-b = np.ones(5)
-c = np.arange(1, 11)
-d = np.linspace(0, 10, 5)
+a = np.array([10, 20, 30, 40])
+b = np.array([1, 2, 3, 4])
 
-print(a)
-print(b)
-print(c)
-print(d)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
