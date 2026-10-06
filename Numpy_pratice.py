@@ -1,9 +1,8 @@
 import numpy as np
 
-a = np.array([10, 20, 30, 40])
-b = np.array([1, 2, 3, 4])
+numbers = np.array([10, 20, 30, 40, 50])
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
+print(np.sum(numbers))
+print(np.max(numbers))
+print(np.min(numbers))
+print(np.mean(numbers))
