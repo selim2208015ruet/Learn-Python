@@ -1,8 +1,8 @@
 import numpy as np
 
-numbers = np.array([10, 20, 30, 40, 50])
+numbers = np.array([1, 2, 3, 4, 5, 6])
 
-print(np.sum(numbers))
-print(np.max(numbers))
-print(np.min(numbers))
-print(np.mean(numbers))
+matrix = numbers.reshape(2, 3)
+
+print(matrix)
+print(matrix.shape)
