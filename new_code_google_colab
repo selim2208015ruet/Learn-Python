@@ -6,7 +6,7 @@
       "provenance": [],
       "gpuType": "T4",
       "mount_file_id": "1ApnmGqigGplHAQHRF5sNK602F9nBztgV",
-      "authorship_tag": "ABX9TyPbnlcvlq9YtD2x583Znr8f",
+      "authorship_tag": "ABX9TyPxSfBumHupdsAh0llg0MbP",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -89,9 +89,20 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "numbers = np.array([10, 20, 30, 40, 50])"
+      ],
       "metadata": {
         "id": "O-s9yYpaU0-j"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "yzBbVvR2WZw-"
       },
       "execution_count": null,
       "outputs": []
